@@ -78,11 +78,11 @@ const displayBooks = returnResults => {
       div.innerHTML =
        `
       <div class="card h-100">
-        <img src="https://covers.openlibrary.org/b/id/${book.cover_i}.jpg" class="card-img-top" alt="...">
+        <img src="https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h6 class="card-title"> Book Name: ${book.title}</h6>
           <p class="card-text"> Author: ${book.author_name[0]}</p>
-          <p> Publish Year: ${book.publish_year[0]} </p>
+          <p> Publish Year: ${book.first_publish_year} </p>
         </div>`
         resultContainer.appendChild(div)   
        });
