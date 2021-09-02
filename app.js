@@ -63,7 +63,7 @@ const displayBooks = returnResults => {
         
         const div = document.createElement ("div") 
        div.classList.add("mx-auto")
-        div.innerHTML = `<h5> Please Search With Right Keywords! </h5>` 
+        div.innerHTML = `<h5> No Result Found! </h5>` 
         resultContainer.appendChild(div)
       }
 
